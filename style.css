@@ -1,0 +1,134 @@
+
+header{
+    height: 190px;
+    position:fixed;
+    top: 0;
+    width:100%;
+    background-color: rgba(17, 0, 255, 0.458);
+    color:white;
+    text-align: center;
+    padding: 2px;
+    border-bottom: 2px solid #3a4f7a;
+    z-index: 1000;
+    background-image: url("369.gif");
+    background-size: auto;
+    background-repeat: initial;
+    
+}
+.cabezera-top{
+    color:white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: double;
+}
+
+.cabezera-top h1{
+    color: rgba(65, 226, 11, 0.701);
+    font-weight: bold;
+} 
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle ,#0f172a,#0f172a );
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #e5e7eb;
+}
+
+main{
+    margin-top: 180px;
+    max-width: 1000px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+section{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 45px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.4);
+    transition: transform 0.8s ease, box-shadow 0.6s ease;
+}
+
+section:hover{
+    transform: translateX(-5px);
+    box-shadow: 0 0 50px rgba(65, 226, 11, 0.3);
+}
+
+.cuadro1 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.cuadroTexto{
+    flex:1;
+    align-items: center;
+    
+}
+
+img{
+    border: #0f172a;
+    box-shadow: 0 0 50px rgba(43, 4, 237, 0.3);
+    width: 300px;
+    height: 300px;
+}
+
+section h3{
+    margin-top: 0;
+    color: #41e20b;
+    border-left: 5px solid #45fc08;
+    padding-left: 12px;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+section p{
+    line-height: 1.7;
+    font-size: 1rem;
+    color: #d1d5db;
+}
+
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li{
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+ul li::before{
+    content: "▹";
+    position:absolute;
+    left: 0;
+    color: #41e20b;
+}
+a{
+    color: #60a5fa;
+    text-decoration:rgba(65, 226, 11, 0.3);
+    font-weight: 500;
+    transition: text-decoration 3s ease, color 0.8s ease;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #e92b47;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #9ca3af;
+    font-style: italic;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
